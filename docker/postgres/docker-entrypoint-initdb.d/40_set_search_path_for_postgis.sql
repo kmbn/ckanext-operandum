@@ -1,0 +1,2 @@
+-- ALTER DATABASE ckan SET 'search_path' = 'public, postgis';
+-- ALTER DATABASE ckan_test SET 'search_path' = 'public, postgis';

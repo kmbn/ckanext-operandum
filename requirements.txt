@@ -1,0 +1,11 @@
+requests>=2.26.0
+# ckanext-harvest
+git+https://github.com/ckan/ckanext-harvest.git@v1.3.3#egg=ckanext-harvest
+-r https://raw.githubusercontent.com/ckan/ckanext-harvest/v1.3.3/pip-requirements.txt
+# ckanext-new_users
+git+https://github.com/kmbn/ckanext-new_users.git@v0.0.1#egg=ckanext-new_users
+# ckanext-scheming
+git+https://github.com/ckan/ckanext-scheming.git@release-2.1.0#egg=ckanext-scheming
+# ckanext-spatial
+git+https://github.com/ckan/ckanext-spatial.git@v1.0.0#egg=ckanext-spatial
+-r https://raw.githubusercontent.com/ckan/ckanext-spatial/v1.0.0/requirements.txt

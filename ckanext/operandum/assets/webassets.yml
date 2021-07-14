@@ -1,0 +1,14 @@
+# operandum-js:
+#   filter: rjsmin
+#   output: ckanext-operandum/%(version)s-operandum.js
+#   contents:
+#     - js/operandum.js
+#   extra:
+#     preload:
+#       - base/main
+
+# operandum-css:
+#   filter: cssrewrite
+#   output: ckanext-operandum/%(version)s-operandum.css
+#   contents:
+#     - css/operandum.css
